@@ -45,7 +45,8 @@ This project shows a simple example to use the basic functions of ABE, especiall
 		a) Unzip tar.gz file using tar -zxvf target-file.tar.gz
 		b) To unzip tar.lz file, you may need to install lunzip first https://zoomadmin.com/HowToInstall/UbuntuPackage/lunzip 
 			And then “lunzip target.tar.gz”, and then “tar xvf target.tar”
-		c) ``./configure pbc -> make -> sudo make install``
+c) ``./configure pbc -> make -> sudo make install
+``
 		d) ./configure libbswabe -> make -> sudo make install
 			If GLIB is not installed correctly, try: sudo apt-get install libgtk2.0-dev
 		e) ./configure gmp -> make -> sudo make install
